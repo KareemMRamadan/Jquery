@@ -1,0 +1,37 @@
+#up {
+  background-color: #92b2ce;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: all 2s;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 3%;
+}
+#up:hover {
+  background-color: rgb(33, 118, 193);
+}
+
+#content1 {
+  display: none;
+}
+#up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.error {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
